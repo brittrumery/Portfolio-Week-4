@@ -8,7 +8,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: var(--primary-font-color);
 }
 h2 {
@@ -25,6 +26,16 @@ h3 {
   font-size: 50px;
   opacity: 0.9;
 }
+h4 {
+  font-family: var(--primary-font);
+  font-size: 75px;
+}
+p {
+  font-family: var(--secondary-font);
+  color: var(--primary-font-color);
+  font-size: 40px;
+  font-weight: lighter;
+}
 .hero {
   background-color: var(--primary-background-color);
 
@@ -40,6 +51,15 @@ h3 {
   color: white;
   border-radius: 4px;
   font-size: 40px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  font-family: var(--primary-font);
+}
+.btn-project {
+  color: var(--primary-font-color);
+  outline: 1px solid var(--primary-font-color);
+  border-radius: 4px;
+  font-size: 30px;
   margin-top: 50px;
   padding: 15px 30px;
   font-family: var(--primary-font);
