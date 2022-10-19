@@ -39,9 +39,25 @@ p {
 }
 .hero {
   background-color: var(--primary-background-color);
-
   text-align: center;
   padding: 50px 0px;
+}
+.about-section {
+  background-color: var(--primary-background-color);
+}
+.about-section h2 {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.about-section h1 {
+  font-size: 35px;
+  padding-top: 20px;
+}
+.about-section p {
+  line-height: 1.5;
+  padding: 40px 0px;
+  font-size: 25px;
 }
 .button {
   margin-top: 75px;
@@ -84,7 +100,8 @@ p {
     font-size: 30px;
     padding: 0px;
   }
-  p {
+  p,
+  .about-section p {
     font-size: 15px;
   }
   .btn-branding {
