@@ -37,6 +37,35 @@ p {
   font-size: 25px;
   font-weight: lighter;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding-top: 20px;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 60px;
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #044a42;
+}
+nav a :hover {
+  text-decoration: underline;
+  color: #044a42;
+}
+nav li.active a {
+  opacity: 0.5;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
 
 .hero {
   background-color: var(--primary-background-color);
