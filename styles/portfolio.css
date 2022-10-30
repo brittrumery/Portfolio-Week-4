@@ -91,7 +91,8 @@ nav li.active a {
   font-size: 25px;
 }
 .button {
-  margin-top: 75px;
+  margin-top: 55px;
+  padding-bottom: 60px;
 }
 .btn-branding {
   background: #044a42;
@@ -100,7 +101,18 @@ nav li.active a {
   font-size: 40px;
   padding: 15px 30px;
   font-family: var(--primary-font);
+  text-decoration: none;
 }
+
+.btn-branding:hover {
+  color: #044a42;
+  background: #f2f9f1;
+  transition: 150ms ease-in-out;
+  text-decoration: none;
+  border: solid #044a42;
+  transition: 150ms ease-in-out;
+}
+
 .btn-project {
   color: var(--primary-font-color);
   outline: 1px solid var(--primary-font-color);
@@ -109,6 +121,15 @@ nav li.active a {
   margin-top: 50px;
   padding: 15px 30px;
   font-family: var(--primary-font);
+}
+
+.btn-project:hover {
+  color: white;
+  background: #044a42;
+  transition: 150ms ease-in-out;
+  text-decoration: none;
+
+  transition: 150ms ease-in-out;
 }
 .project-description {
   padding: 5px 20px 20px 20px;
